@@ -58,3 +58,37 @@ li {
   font-family: "Brush Script MT";
   color: red;
 }
+
+.item:hover {
+  transform: scale(1.2);
+}
+
+a:link {
+  color: green;
+}
+a:visited {
+  color: #215b60;
+}
+
+a {
+  text-decoration: none;
+}
+.item {
+  position: relative;
+}
+.item p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+  font-family: "FANTASY";
+  color: red;
+}
+.item:hover p {
+  opacity: 1;
+}
+.item:hover img {
+  opacity: 0.2;
+}
